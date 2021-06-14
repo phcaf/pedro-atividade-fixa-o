@@ -77,5 +77,18 @@ function verificaMes(c)
     }
 }
 
+//Questão5
 
+function atividadeCinco(valorUm, valorDois, callback)
+ {
+    console.log(callback(valorUm,valorDois));
+ }
+
+atividadeCinco(25,23, function(valorUm,valorDois)
+ {
+    if(valorUm >= valorDois) 
+    {
+        return valorUm;
+    }
+ })
 
